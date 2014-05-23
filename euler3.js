@@ -1,5 +1,6 @@
 function euler3 (n) {
-
+	
+	//complete
 	function factors(x) {
 		f = [];
 		for (i = 1; i <= x / 2; i++) {
@@ -10,6 +11,7 @@ function euler3 (n) {
 		return f
 	};
 	
+	//complete
 	function isPrime(x) {
 		z = x;
 		y = factors(x);
@@ -20,7 +22,8 @@ function euler3 (n) {
 		};
 		return true
 	};
-
+	
+	//TOTO: fix dis shit
 	y = factors(n);
 	z = 0;
 	for (i = 0; i < y.length; i++) {
